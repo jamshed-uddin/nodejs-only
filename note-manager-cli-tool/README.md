@@ -22,12 +22,14 @@ git clone https://github.com/jamshed-uddin/nodejs-only.git
 ```
 
 ```
-cd note-manager-cli-tool
+cd notejs-only/note-manager-cli-tool
 ```
 
 ```
 npm link
 ```
+
+`npm link` to create a global symbolic link between the local directory and global node_modules, so we don't need to run `node server.js` to run the app. Instead, we can just run `note add <note>` as we added a shebang `#!/usr/bin/env node` on top of the script that tells the OS which interpreter to use and added a `bin` field in package.json, which maps the command `note` to the script `server.js`, making it executable globally.
 
 ## Uses
 
