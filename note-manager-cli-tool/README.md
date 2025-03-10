@@ -17,6 +17,18 @@ Node installed
 
 ## Installation
 
+```
+git clone https://github.com/jamshed-uddin/nodejs-only.git
+```
+
+```
+cd note-manager-cli-tool
+```
+
+```
+npm link
+```
+
 ## Uses
 
 - ### Add a note
